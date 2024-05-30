@@ -3,9 +3,11 @@
 This repository contains the code and resources for the paper: 
 **《Guiding Clinical Reasoning with Large Language Models via Knowledge Seeds》**
 
-**Authors:** Jiageng Wu*, Xian Wu*, and Jie Yang\#, PhD
+**Authors:** Jiageng Wu*, Xian Wu*, and Jie Yang\#
 
-*Contribute equally to this paper, \# Correspondence: 
+*Contribute equally to this paper, 
+
+\# Correspondence: 
 
 ## Introduction
 
