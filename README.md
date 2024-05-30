@@ -3,7 +3,7 @@
 This repository contains the code and resources for the paper: 
 **《Guiding Clinical Reasoning with Large Language Models via Knowledge Seeds》**
 
-**Authors:** Jiageng Wu*, Xian Wu, and Jie Yang\#, PhD
+**Authors:** Jiageng Wu*, Xian Wu*, and Jie Yang\#, PhD
 
 *Contribute equally to this paper, \# Correspondence: 
 
@@ -20,4 +20,4 @@ If there is any question, please feel free to contact me (jiagengwu@zju.edu.cn)
 ## Dataset
 There are different examinations for different clinical disciplines, so we selected two datasets for model evaluation. 
 1. [CMExam](https://github.com/williamliujl/CMExam), is a more comprehensive collection encompassing the six types of medical licensing examination: clinical medicine, traditional Chinese medicine (TCM), integrated TCM and Western medicine, dentistry, public health, pharmacy, and traditional Chinese pharmacy. The CMExam incorporates 68,119 medical questions sourced from past examinations and medical books. To ensure consistency with the genuine examination, we only included 57,565 questions that have five options, a singular correct answer, and an analysis exceeding 30 words. Lastly, we randomly selected 600 questions to serve as the testing set, while the remaining questions in CMExam were designated as the training set. 
-2. CNMLE-Clinical (Confidential due to copyright issues), focuses on CNMLE for clinical medicine. The CNMLE-Clinical evaluates four parts of medicine: preventive medicine, preclinical medicine, clinical medicine, and medical humanities, which cover over twenty distinct medical subjects. We gathered questions from past examinations and various reference books, accumulating a total of 15,255 questions. Out of these, we randomly selected 600 questions, consistent with the number in the official examination, to serve as our testing set, while the remainder were used as the training set. Each instance in CNMLEClinical consists of a question, five candidate options, the correct answer, and a detailed explanation for the answer.
+2. CNMLE-Clinical (Private due to copyright issues), focuses on CNMLE for clinical medicine. The CNMLE-Clinical evaluates four parts of medicine: preventive medicine, preclinical medicine, clinical medicine, and medical humanities, which cover over twenty distinct medical subjects. We gathered questions from past examinations and various reference books, accumulating a total of 15,255 questions. Out of these, we randomly selected 600 questions, consistent with the number in the official examination, to serve as our testing set, while the remainder were used as the training set. Each instance in CNMLE-Clinical consists of a question, five candidate options, the correct answer, and a detailed explanation for the answer.
